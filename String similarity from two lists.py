@@ -5,8 +5,8 @@ import json
 from watson_developer_cloud import ConceptInsightsV2
 
 concept_insights = ConceptInsightsV2(
-    username='6cba26de-ef3b-42ff-8935-5fe083ab32e6',
-    password='9qG9Ba5dPDJ6')
+    username='username',
+    password='password')
 
 accounts = concept_insights.get_accounts_info()
 print(json.dumps(accounts, indent=2))
